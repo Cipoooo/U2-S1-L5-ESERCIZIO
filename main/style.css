@@ -1,0 +1,126 @@
+body{
+    width: 100%;
+    min-height: 800px;
+    font-family: 'Spectral';
+}
+nav button{
+    background-color: black;
+    padding: 10px;
+    border-radius: 60px;
+    color: white;
+    margin-left: 20px;
+}
+/*-------------------------------------------------------------------*/
+nav{
+    display: flex;
+    padding-left: 10%;
+    width: 100%;
+    min-height: 50px;
+    background-color: #FFC017;
+    border-bottom: solid 2px;
+}
+.navbar{
+    display: flex;
+}
+nav > img{width: 10%;height: 60px;}
+
+.navbar nav{
+    justify-content: space-between;
+}
+nav a{
+    align-content: center;
+    padding-left: 20px;
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{
+    font-size: 1.1rem;
+}
+.navLink{
+    align-content: center;
+    padding-right: 20%;
+}
+
+header{
+    border-bottom: solid 2px;
+    background-color: #FFC017;
+    padding-top: 5%;
+    padding-left: 10%;
+    display: block;
+    position: relative;
+}
+header img{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 30%;
+    height: 100%;
+    color: black;
+}
+header h1{
+    font-family: 'Roboto';
+    font-size: 4rem;
+    color: black;
+    font-weight: 700;
+}
+header h2{
+    font-size: 1.5rem;
+    color: black;
+    margin-bottom: 10px;
+}
+.btn{
+    background-color: black;
+    color: white;    
+    padding: 5px;
+    border-radius: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 8%;
+}
+button:hover{
+    box-shadow: 0 0 1em white;
+    font-size: 1.1rem;
+}
+main{
+    padding-top: 30px;
+    padding-left: 10%;
+}
+.trendingTitle{
+    display: flex;
+    margin-bottom: 20px;
+}
+.trendingTitle>h3>img{
+    width: 25px;
+}
+.trending{
+    align-content: center;
+}
+main h3{
+    color: black;
+    font-weight: 900;
+    font-family: 'Roboto';
+    display: flex;
+    align-items: center;
+}
+.cards{
+    display: inline-flex;
+}
+.cards> ul{
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+li>p{
+    padding-bottom: 20px;
+}
+li>p>img{
+    border-radius: 50%;
+    width: 20px;
+    padding-right: 10px;
+}
+.data{
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.5rem;
+    color: lightgray;
+}
